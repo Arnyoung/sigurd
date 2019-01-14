@@ -1407,11 +1407,11 @@ input, select, textarea {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(255, 201, 49, 1);
 					}
 
 					#header nav ul li a:active {
-						background-color: rgba(255, 255, 255, 0.175);
+						background-color: rgba(255, 201, 49, 1);
 					}
 
 		#header nav.use-middle:after {
@@ -1584,7 +1584,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(119, 238, 134, 0.85);
+			background-color: rgba(255, 201, 49, 0.85);
 			border-radius: 4px;
 			opacity: 0;
 		}
