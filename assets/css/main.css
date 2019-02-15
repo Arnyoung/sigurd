@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -1188,10 +1187,7 @@ input, select, textarea {
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
 			transform: scale(1.125);
-			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
-			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
-			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
-			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
+
 			background-image: url("../../images/bg.jpg");
 			background-position: center, center;
 			background-size: cover;
@@ -1200,10 +1196,7 @@ input, select, textarea {
 		}
 
 		body.is-article-visible #bg:after {
-			-moz-transform: scale(1.0825);
-			-webkit-transform: scale(1.0825);
-			-ms-transform: scale(1.0825);
-			transform: scale(1.0825);
+	
 			-moz-filter: blur(0.2rem);
 			-webkit-filter: blur(0.2rem);
 			-ms-filter: blur(0.2rem);
@@ -1284,10 +1277,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
+
 		<!-- background-image: -moz-radial-gradient(rgba(119, 238, 134, 0.50) 25%, rgba(161, 249, 172, 0) 55%);-->
 		<!-- background-image: -webkit-radial-gradient(rgba(119, 238, 134, 0.50) 25%, rgba(161, 249, 172, 0) 55%); -->
 		<!-- background-image: -ms-radial-gradient(rgba(119, 238, 134, 0.50) 25%, rgba(161, 249, 172, 0) 55%); -->
@@ -1297,10 +1287,7 @@ input, select, textarea {
 	}
 
 		#header > * {
-			-moz-transition: opacity 0.325s ease-in-out;
-			-webkit-transition: opacity 0.325s ease-in-out;
-			-ms-transition: opacity 0.325s ease-in-out;
-			transition: opacity 0.325s ease-in-out;
+	
 			position: relative;
 			margin-top: 3.5rem;
 		}
@@ -1345,14 +1332,7 @@ input, select, textarea {
 		}
 
 			#header .content .inner {
-				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-moz-transition-delay: 0.25s;
-				-webkit-transition-delay: 0.25s;
-				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;
+			
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
