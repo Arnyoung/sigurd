@@ -242,6 +242,12 @@ body {
 		letter-spacing: 0rem;
 	}
 
+	h1.green {
+		font-size: 1.5rem;
+		color: #008744;
+
+	}
+
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.4;
