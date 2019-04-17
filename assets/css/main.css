@@ -83,7 +83,7 @@ body {
 	background-position: 0%;
 	width: 80%;
 	margin: 10%;
-	font-size: 50px;
+	font-size: 3.14rem;
 	animation: clouds-moving infinite 30s;
 	animation-fill-mode: forwards;
 	animation-play-state: running;
