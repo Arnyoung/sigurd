@@ -67,6 +67,47 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Moving green text */
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+body {
+    background: #ffffff;
+}
+.cloud-text {
+	font-family: 'Shrikhand', cursive;
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;	
+	background-image: url(../../images/green.jpg);
+	background-size: auto;
+	background-attachment: unset;
+	background-position: 0%;
+	width: 80%;
+	margin: 10%;
+	font-size: 50px;
+	animation: clouds-moving infinite 30s;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+	animation-timing-function: linear;
+	text-align: center;
+}
+@keyframes clouds-moving {
+	0% {
+		background-position: 0%;	
+	}
+	50% {
+		background-position: 100%;	
+	}
+	100% {
+		background-position: 0%;
+	}
+}
+.attribute {
+	position: relative;
+	font-size: 26px;
+	text-align: center;
+}
+
+
 /* Basic */
 
 	@-ms-viewport {
