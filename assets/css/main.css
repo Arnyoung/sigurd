@@ -90,6 +90,7 @@ body {
 	animation-timing-function: linear;
 	text-align: center;
 }
+
 @keyframes clouds-moving {
 	0% {
 		background-position: 0%;	
@@ -191,7 +192,7 @@ body {
 		
 		text-decoration: none;
 		color: inherit;
-		font-family: "Scope one", sans-serif;
+		font-family: "Montserrat", sans-serif;
 	}
 
 		a:hover {
@@ -199,8 +200,22 @@ body {
 		}
 
 	strong, b {
-		color: #ffffff;
-		font-weight: 600;
+			font-family: 'Shrikhand', cursive;
+			-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;	
+			background-image: url(../../images/green.jpg);
+			background-size: auto;
+			background-attachment: unset;
+			background-position: 10%;
+			width: 0%;
+			margin: 0%;
+			font-size: 12 px;
+			animation: clouds-moving infinite 30s;
+			animation-fill-mode: forwards;
+			animation-play-state: running;
+			animation-timing-function: linear;
+			text-align: left;
+		
 	}
 
 	em, i {
