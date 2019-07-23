@@ -289,7 +289,7 @@ body {
 
 		h1 {
 			font-size: 1.75rem;
-			line-height: 1.4;
+			line-height: 0.8;
 		}
 
 		h2 {
@@ -1303,8 +1303,9 @@ body {
 		@media screen and (max-width: 1680px) {
 
 			#bg:after{
-				background-image: url("../../images/bg1.jpg");
+				background-image: url("../../images/bg-1680.jpg");
 			}
+			
 			#wrapper {
 				padding: 3rem 2rem;
 			}
