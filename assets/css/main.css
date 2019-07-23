@@ -1302,6 +1302,9 @@ body {
 
 		@media screen and (max-width: 1680px) {
 
+			#bg:after{
+				background-image: url("../../images/bg1.jpg");
+			}
 			#wrapper {
 				padding: 3rem 2rem;
 			}
@@ -1310,6 +1313,9 @@ body {
 
 		@media screen and (max-width: 736px) {
 
+			#bg:after{
+				background-image: url("../../images/bg1.jpg");
+			}
 			#wrapper {
 				padding: 2rem 1rem;
 			}
@@ -1318,6 +1324,9 @@ body {
 
 		@media screen and (max-width: 480px) {
 
+			#bg:after{
+				background-image: url("../../images/bg1.jpg");
+			}
 			#wrapper {
 				padding: 1rem;
 			}
